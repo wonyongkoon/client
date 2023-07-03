@@ -1,0 +1,31 @@
+.Chat_container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+.Chat_GPT_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  /* margin-left: 0px; */
+}
+
+.Chat_chat {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.UserMessage .Chat_chat {
+  background-color: #d4eaff;
+  color: #333;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.BotMessage .Chat_chat {
+  background-color: #e9e9e9;
+  color: #555;
+  margin-right: auto; /* 새로 추가된 코드: 오른쪽 여백을 자동으로 설정 */
+}
